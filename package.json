@@ -1,0 +1,23 @@
+{
+  "name": "ahri",
+  "version": "1.0.0",
+  "description": "Ahri discord bot written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utlamo/Ahri.git"
+  },
+  "author": "Utlamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Utlamo/Ahri/issues"
+  },
+  "homepage": "https://github.com/Utlamo/Ahri#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
