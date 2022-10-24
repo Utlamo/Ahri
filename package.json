@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Utlamo/Ahri.git"
   },
-  "author": "Utlamo",
+  "authors": ["Utlamo","kamyszek-m"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Utlamo/Ahri/issues"
