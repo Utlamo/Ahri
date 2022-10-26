@@ -1,7 +1,7 @@
 {
   "name": "ahri",
   "version": "1.0.0",
-  "description": "Ahri discord bot written in Node.js",
+  "description": "Ahri discord bot written in Node.js and python",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
