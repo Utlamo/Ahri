@@ -7,9 +7,10 @@ const __dirname = path.dirname(__filename);
 import fs from 'fs';
 import * as dotenv from 'dotenv';
 dotenv.config();
-const folderPath = __dirname + process.env.PATHTO_AHRIMODULES || "//ahri_modules";
+const PATHTO_AHRIMODULES = process.env.PATHTO_AHRIMODULES || "//ahri_modules";
+const folderPath = __dirname + PATHTO_AHRIMODULES;
 const defaultJSON = process.env.DEFAULT_JSON || {"category":"unknown", "limit_time":3000};
-const allowedFormats = process.env.ALLOWED_FORMATS || [".py",".js"]
+const allowedFormats = process.env.ALLOWED_FORMATS || [".py",".js"];
 var files = []
 
 function dirFiles(folder) {
